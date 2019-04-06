@@ -130,7 +130,7 @@ public class Dijkstra {
         }
 
         for (Node node : graph.getNodes()) {
-            System.out.print("shortest path to " + node.getName() + " from A = ");
+            System.out.print("shortest path to " + node.getName() + " from AER = ");
             for (Node node2 : node.getShortestPath()) {
                 if (node2.getName().equals("AER")) {
                     System.out.print(node2.getName() + "->");
